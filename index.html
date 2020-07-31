@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            HTML form 
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="formbox">
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label for="uname">Name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="uname" name="username" placeholder="Fullname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="uemail">Email</label>
+                    </td>
+                    <td>
+                        <input type="email" id="uemail" name="usermail" placeholder="xyz@abc.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cno">Car Number</label>
+                    </td>
+                    <td>
+                        <input type="text" name="num" id="cno" size="20" maxlength="20" placeholder="E.g. - WB06F9999">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Country</label>
+                    </td>
+                    <td>
+                        <input type="text" value="India" name="country" disabled>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                            <label for="date">Date purchased</label>
+                    </td>
+                    <td>
+                            <input type="date" id="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pic">Number Plate Photo</label>
+                    </td>
+                    <td>
+                        <input type="file" id="pic">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Parts to be insured</label>
+                    </td>
+                    <td>
+                        <label class="container">   <p>Front Side
+                            <input type="checkbox" checked>
+                        </p>
+                        </label>
+                        <label class="container">   <p>Back Side
+                            <input type="checkbox">
+                        </p>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Policy</label>
+                    </td>
+                    <td>
+                        <label>
+                            <input type="radio"  name="type"> Supreme</label>
+                            <label>
+                            <input type="radio" name="type"> Premium</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                            <label for="dist">Distance Covered</label>
+                    </td>
+                    <td>
+                            <select id="dist" name="dist">
+                                <option disabled selected>--Choose distance--</option>
+                                    <optgroup label="kms">
+                                        <option>10,000</option>
+                                        <option>20,000</option>
+                                        <option>30,000</option>
+                                        <option>40,000</option>
+                                        <option>>40,000</option>
+                                    </optgroup>
+                            </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Address</label>
+                    </td>
+                    <td>
+                        <textarea rows="4" cols="30" placeholder="Your Address"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Submit">
+                        <input type="reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    </body>
+</html>
