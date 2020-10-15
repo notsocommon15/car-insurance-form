@@ -14,7 +14,7 @@ html{
 flex-wrap: wrap;
 justify-content: center;
 align-items: center;
-font-family: Georgia, 'Times New Roman', Times, serif
+font-family: Georgia, 'Times New Roman', Times;
 }
 input[type=text], select, input[type=email],input[type=date],input[type=file],textarea {
 width: 100%;
@@ -33,7 +33,7 @@ width: 20px;
 background-color: #eee;
 }
 .container input:checked ~ input[type=checkbox] {
-background-color: #75f321;
+background-color: #75f323;
 }
 input[type=checkbox]:after {
 content: "";
